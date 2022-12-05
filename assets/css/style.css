@@ -105,6 +105,192 @@ h1, h2, h3, h4, h5, h6, .page-title-box h4 {
   border: 0px !important;
 }
 
+.grid-data {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-right: auto;
+  background-color: #1F4690;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+.grid-data li {
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+}
+.grid-data li:last-child {
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+.grid-data li a {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.grid-data li a img {
+  width: 24px;
+  height: 24px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+.grid-data li a.active img {
+  filter: invert(84%) sepia(12%) saturate(7445%) hue-rotate(333deg) brightness(102%) contrast(94%);
+}
+
+.user-box {
+  width: 100%;
+  padding: 20px 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(31, 70, 144, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 9;
+}
+.user-box .image-content img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.user-box .contain {
+  width: 100%;
+  padding-top: 20px;
+}
+.user-box .contain .list {
+  width: 100%;
+}
+.user-box .contain .list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.user-box .contain .list li .name {
+  font-size: 15px !important;
+  font-weight: 900;
+  color: #342E74;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+  min-width: 100px !important;
+  text-align: start !important;
+}
+.user-box .contain .list li .data {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  color: #000;
+}
+.user-box .contain .icons {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.user-box .contain .icons li {
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+}
+.user-box .contain .icons li:last-child {
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+.user-box .contain .icons li i {
+  color: #ddd;
+  font-size: 15px;
+}
+.user-box .contain .icons li i.active {
+  color: #F7A637;
+}
+.user-box .edit-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.user-box .edit-btn a, .user-box .edit-btn button {
+  width: 30px !important;
+  height: 30px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  align-content: center !important;
+  padding: 0px !important;
+}
+
+.nav-list-data li {
+  -webkit-margin-end: 5px;
+          margin-inline-end: 5px;
+  margin-bottom: 10px;
+}
+.nav-list-data li a {
+  width: 120px;
+  height: 40px;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+.end-subscribe {
+  width: 100%;
+  background-color: var(--light);
+  padding: 40px 0px;
+}
+.end-subscribe .contain {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.end-subscribe .contain img {
+  width: 50%;
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-animation: translateX 2s linear infinite;
+          animation: translateX 2s linear infinite;
+}
+.end-subscribe .contain h1 {
+  margin: 20px 0px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+@-webkit-keyframes translateX {
+  0%, 100% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+}
+
+@keyframes translateX {
+  0%, 100% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+}
 .card {
   height: 100%;
 }
@@ -847,6 +1033,10 @@ h1, h2, h3, h4, h5, h6, .heading {
   .navbar-header .dropdown .dropdown-menu {
     left: 0 !important;
     right: 0px !important;
+  }
+  .end-subscribe .contain img {
+    width: 100%;
+    height: 200px !important;
   }
 }
 @media (max-width: 321px) {

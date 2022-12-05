@@ -332,7 +332,7 @@
                   </li>
 
                   <li>
-                    <a href="add-order.html">
+                    <a href="request-box.html">
                       اضافة طلب 
                     </a>
                   </li>
@@ -502,7 +502,7 @@
 
               <div class="col-lg-6 col-12">
                 <div class="d-flex align-items-end align-content-end justify-content-end">
-                  <a href="add-user.html" class="btn btn-custom d-flex align-items-center justify-content-center align-content-center chat-send w-md waves-effect waves-light">
+                  <a href="#" type="button"  data-toggle="modal" data-target="#exampleModal" class="btn btn-custom d-flex align-items-center justify-content-center align-content-center chat-send w-md waves-effect waves-light">
                     <i class="bx bx-plus-medical"></i>
 
                     <span class="d-sm-inline-block mx-2">
@@ -515,88 +515,735 @@
               <div class="col-12 mb-3 mt-4">
                 <div class="card">
                   <div class="card-body">
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>
-                            #
-                          </th>
+                    <ul class="grid-data">
+                      <li>
+                        <a href="#">
+                          <img src="assets/images/grid.svg" loading="lazy" alt="" />
+                        </a>
+                      </li>
 
-                          <th>
-                            الصورة الشخصية	
-                          </th>
+                      <li>
+                        <a href="#" class="active">
+                          <img src="assets/images/list.svg" loading="lazy" alt="" />
+                        </a>
+                      </li>
+                    </ul>
 
-                          <th>
-                            الاسم
-                          </th>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>
+                              #
+                            </th>
+  
+                            <th>
+                              الصورة الشخصية	
+                            </th>
+  
+                            <th>
+                              الاسم
+                            </th>
+  
+                            <th>
+                              البريد الالكتروني	
+                            </th>
+  
+                            <th>
+                              رقم الهاتف	
+                            </th>
+  
+                            <th>
+                              اخر الظهور	
+                            </th>
+  
+                            <th>
+                              الخيارات
+                            </th>
+                          </tr>
+                        </thead>
+  
+                        <tbody>
+                          <tr>
+                            <td>
+                              1
+                            </td>
+  
+                            <td>
+                              <img src="assets/images/users/avatar-1.jpg" class="table-img" alt="">
+                            </td>
+  
+                            <td>
+                              لجنة التنمية الأهلية بجدة	
+                            </td>
+  
+                            <td>
+                              alaaim@hotmail.com	
+                            </td>
+  
+                            <td>
+                              0544888042
+                            </td>
+  
+                            <td>
+                              2022-08-03 18:42:57				
+                            </td>
+  
+                            <td>
+                              <div class="d-flex align-items-center justify-content-center mb-2">
+                                <a href="edit-user.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
+                                  <i class="uil-edit"></i>
+                                </a>
+  
+                                <a href="user-profile.html" class="btn mx-2 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
+                                  <i class="uil-eye"></i>
+                                </a>
+  
+                                <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
+                                  <i class="uil-trash-alt"></i>
+                                </button>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    
 
-                          <th>
-                            البريد الالكتروني	
-                          </th>
+                    <div class="row">
+                      <div class="col-lg-4 col-12 mb-4">
+                        <div class="user-box">
+                          <div class="image-content">
+                            <img src="assets/images/users/avatar-3.jpg" loading="lazy" alt="" />
+                          </div>
 
-                          <th>
-                            رقم الهاتف	
-                          </th>
+                          <div class="contain">
+                            <ul class="list">
+                              <li>
+                                <span class="name">
+                                  عنوان الطلب
+                                </span>
 
-                          <th>
-                            اخر الظهور	
-                          </th>
+                                <span class="data">
+                                  تصميم تقرير هممكو 
+                                </span>
+                              </li>
 
-                          <th>
-                            الخيارات
-                          </th>
-                        </tr>
-                      </thead>
+                              <li>
+                                <span class="name">
+                                  المشروع
+                                </span>
 
-                      <tbody>
-                        <tr>
-                          <td>
-                            1
-                          </td>
+                                <span class="data">
+                                  محمد الشرفي	
+                                </span>
+                              </li>
 
-                          <td>
-                            <img src="assets/images/users/avatar-1.jpg" class="table-img" alt="">
-                          </td>
+                              <li>
+                                <span class="name">
+                                  التاريخ
+                                </span>
 
-                          <td>
-                            لجنة التنمية الأهلية بجدة	
-                          </td>
+                                <span class="data">
+                                  2022-04-21 16:04:34	
+                                </span>
+                              </li>
 
-                          <td>
-                            alaaim@hotmail.com	
-                          </td>
+                              <li>
+                                <span class="name">
+                                  الحالة
+                                </span>
 
-                          <td>
-                            0544888042
-                          </td>
+                                <span class="data">
+                                  تم الانتهاء	
+                                </span>
+                              </li>
 
-                          <td>
-                            2022-08-03 18:42:57				
-                          </td>
+                              <li>
+                                <span class="name">
+                                  اضافة مصمم	
+                                </span>
 
-                          <td>
-                            <div class="d-flex align-items-center justify-content-center mb-2">
-                              <a href="edit-user.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
-                                <i class="uil-edit"></i>
-                              </a>
+                                <span class="data">
+                                  اسم المصمم
+                                </span>
+                              </li>
+                            </ul>
 
-                              <a href="user-profile.html" class="btn mx-2 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                <i class="uil-eye"></i>
-                              </a>
+                            <ul class="icons">
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
 
-                              <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
-                                <i class="uil-trash-alt"></i>
-                              </button>
-                            </div>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="edit-btn d-flex align-items-center justify-content-center mb-2">
+                            <a href="edit-user.html" class="btn d-flex py-0 px-1 align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
+                              <i class="uil-edit"></i>
+                            </a>
+
+                            <a href="user-profile.html" class="btn mx-2 py-0 px-1 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
+                              <i class="uil-eye"></i>
+                            </a>
+
+                            <button class="btn d-flex align-items-center py-0 px-1 justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
+                              <i class="uil-trash-alt"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-12 mb-4">
+                        <div class="user-box">
+                          <div class="image-content">
+                            <img src="assets/images/users/avatar-3.jpg" loading="lazy" alt="" />
+                          </div>
+
+                          <div class="contain">
+                            <ul class="list">
+                              <li>
+                                <span class="name">
+                                  عنوان الطلب
+                                </span>
+
+                                <span class="data">
+                                  تصميم تقرير هممكو 
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  المشروع
+                                </span>
+
+                                <span class="data">
+                                  محمد الشرفي	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  التاريخ
+                                </span>
+
+                                <span class="data">
+                                  2022-04-21 16:04:34	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  الحالة
+                                </span>
+
+                                <span class="data">
+                                  تم الانتهاء	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  اضافة مصمم	
+                                </span>
+
+                                <span class="data">
+                                  اسم المصمم
+                                </span>
+                              </li>
+                            </ul>
+
+                            <ul class="icons">
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="edit-btn d-flex align-items-center justify-content-center mb-2">
+                            <a href="edit-user.html" class="btn d-flex py-0 px-1 align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
+                              <i class="uil-edit"></i>
+                            </a>
+
+                            <a href="user-profile.html" class="btn mx-2 py-0 px-1 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
+                              <i class="uil-eye"></i>
+                            </a>
+
+                            <button class="btn d-flex align-items-center py-0 px-1 justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
+                              <i class="uil-trash-alt"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-12 mb-4">
+                        <div class="user-box">
+                          <div class="image-content">
+                            <img src="assets/images/users/avatar-3.jpg" loading="lazy" alt="" />
+                          </div>
+
+                          <div class="contain">
+                            <ul class="list">
+                              <li>
+                                <span class="name">
+                                  عنوان الطلب
+                                </span>
+
+                                <span class="data">
+                                  تصميم تقرير هممكو 
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  المشروع
+                                </span>
+
+                                <span class="data">
+                                  محمد الشرفي	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  التاريخ
+                                </span>
+
+                                <span class="data">
+                                  2022-04-21 16:04:34	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  الحالة
+                                </span>
+
+                                <span class="data">
+                                  تم الانتهاء	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  اضافة مصمم	
+                                </span>
+
+                                <span class="data">
+                                  اسم المصمم
+                                </span>
+                              </li>
+                            </ul>
+
+                            <ul class="icons">
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="edit-btn d-flex align-items-center justify-content-center mb-2">
+                            <a href="edit-user.html" class="btn d-flex py-0 px-1 align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
+                              <i class="uil-edit"></i>
+                            </a>
+
+                            <a href="user-profile.html" class="btn mx-2 py-0 px-1 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
+                              <i class="uil-eye"></i>
+                            </a>
+
+                            <button class="btn d-flex align-items-center py-0 px-1 justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
+                              <i class="uil-trash-alt"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-12 mb-4">
+                        <div class="user-box">
+                          <div class="image-content">
+                            <img src="assets/images/users/avatar-3.jpg" loading="lazy" alt="" />
+                          </div>
+
+                          <div class="contain">
+                            <ul class="list">
+                              <li>
+                                <span class="name">
+                                  عنوان الطلب
+                                </span>
+
+                                <span class="data">
+                                  تصميم تقرير هممكو 
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  المشروع
+                                </span>
+
+                                <span class="data">
+                                  محمد الشرفي	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  التاريخ
+                                </span>
+
+                                <span class="data">
+                                  2022-04-21 16:04:34	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  الحالة
+                                </span>
+
+                                <span class="data">
+                                  تم الانتهاء	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  اضافة مصمم	
+                                </span>
+
+                                <span class="data">
+                                  اسم المصمم
+                                </span>
+                              </li>
+                            </ul>
+
+                            <ul class="icons">
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="edit-btn d-flex align-items-center justify-content-center mb-2">
+                            <a href="edit-user.html" class="btn d-flex py-0 px-1 align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
+                              <i class="uil-edit"></i>
+                            </a>
+
+                            <a href="user-profile.html" class="btn mx-2 py-0 px-1 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
+                              <i class="uil-eye"></i>
+                            </a>
+
+                            <button class="btn d-flex align-items-center py-0 px-1 justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
+                              <i class="uil-trash-alt"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-12 mb-4">
+                        <div class="user-box">
+                          <div class="image-content">
+                            <img src="assets/images/users/avatar-3.jpg" loading="lazy" alt="" />
+                          </div>
+
+                          <div class="contain">
+                            <ul class="list">
+                              <li>
+                                <span class="name">
+                                  عنوان الطلب
+                                </span>
+
+                                <span class="data">
+                                  تصميم تقرير هممكو 
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  المشروع
+                                </span>
+
+                                <span class="data">
+                                  محمد الشرفي	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  التاريخ
+                                </span>
+
+                                <span class="data">
+                                  2022-04-21 16:04:34	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  الحالة
+                                </span>
+
+                                <span class="data">
+                                  تم الانتهاء	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  اضافة مصمم	
+                                </span>
+
+                                <span class="data">
+                                  اسم المصمم
+                                </span>
+                              </li>
+                            </ul>
+
+                            <ul class="icons">
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="edit-btn d-flex align-items-center justify-content-center mb-2">
+                            <a href="edit-user.html" class="btn d-flex py-0 px-1 align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
+                              <i class="uil-edit"></i>
+                            </a>
+
+                            <a href="user-profile.html" class="btn mx-2 py-0 px-1 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
+                              <i class="uil-eye"></i>
+                            </a>
+
+                            <button class="btn d-flex align-items-center py-0 px-1 justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
+                              <i class="uil-trash-alt"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-12 mb-4">
+                        <div class="user-box">
+                          <div class="image-content">
+                            <img src="assets/images/users/avatar-3.jpg" loading="lazy" alt="" />
+                          </div>
+
+                          <div class="contain">
+                            <ul class="list">
+                              <li>
+                                <span class="name">
+                                  عنوان الطلب
+                                </span>
+
+                                <span class="data">
+                                  تصميم تقرير هممكو 
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  المشروع
+                                </span>
+
+                                <span class="data">
+                                  محمد الشرفي	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  التاريخ
+                                </span>
+
+                                <span class="data">
+                                  2022-04-21 16:04:34	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  الحالة
+                                </span>
+
+                                <span class="data">
+                                  تم الانتهاء	
+                                </span>
+                              </li>
+
+                              <li>
+                                <span class="name">
+                                  اضافة مصمم	
+                                </span>
+
+                                <span class="data">
+                                  اسم المصمم
+                                </span>
+                              </li>
+                            </ul>
+
+                            <ul class="icons">
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star active"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+
+                              <li>
+                                <i class="bx bxs-star"></i>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="edit-btn d-flex align-items-center justify-content-center mb-2">
+                            <a href="edit-user.html" class="btn d-flex py-0 px-1 align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
+                              <i class="uil-edit"></i>
+                            </a>
+
+                            <a href="user-profile.html" class="btn mx-2 py-0 px-1 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
+                              <i class="uil-eye"></i>
+                            </a>
+
+                            <button class="btn d-flex align-items-center py-0 px-1 justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
+                              <i class="uil-trash-alt"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div> 
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <ul class="nav nav-list-data">
+              <li class="nav-item">
+                <a class="nav-link blue" href="add-desginer.html">
+                  اضافة مصمم
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link yellow" href="add-client.html">
+                  اضافة عميل 
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link green" href="add-manganers.html">
+                  اضافة مدير 
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link red" href="add-client-helper.html">
+                 اضافة مشرف عميل 
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link black" href="add-data-entry.html">
+                  مدخل بيانات
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
