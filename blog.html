@@ -12,7 +12,6 @@
     <link rel="shortcut icon" href="assets/images/favicon.png">
     <link href="assets/css/lib/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css" />
     <!--english version -->
     <!-- <link href="assets/css/lib/app.min.css" id="app-style" rel="stylesheet" type="text/css" /> -->
     <link href="assets/css/lib/app-rtl.min.css" id="app-style" rel="stylesheet" type="text/css" />
@@ -521,52 +520,86 @@
 
             <!-- start page title -->
             <div class="row">
-              <div class="col-12">
+              <div class="col-lg-6 col-12">
                 <div class="page-title-box d-flex align-items-center justify-content-between">
                   <h4 class="mb-0">
-                    صفحات الموقع
+                    المدونة
                   </h4>
                 </div>
               </div>
 
-              <div class="col-12 mb-3">
+              <div class="col-lg-6 col-12">
+                <div class="d-flex align-items-end align-content-end justify-content-end">
+                  <a href="add-blog.html" class="btn btn-custom d-flex align-items-center justify-content-center align-content-center chat-send w-md waves-effect waves-light">
+                    <i class="bx bx-plus-medical"></i>
+
+                    <span class="d-sm-inline-block mx-2">
+                      اضافة جديد
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 mb-3 mt-4">
                 <div class="card">
                   <div class="card-body">
-                    <form action="">
-                      <div class="row">
-                        <div class="col-12">
-                          <div class="form-group">
-                            <label for="" class="col-form-label">
-                              اسم الصفحه
-                            </label>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>
+                            #
+                          </th>
 
-                            <input type="text" class="form-control" placeholder="اكتب هنا">
-                          </div>
-                        </div>
+                          <th>
+                            صوره الخبر 	
+                          </th>
 
-                        <div class="col-12">
-                          <div class="form-group">
-                            <label for="" class="col-form-label">
-                              المحتوي
-                            </label>
+                          <th>
+                            عنوان الخبر 
+                          </th>
 
-                            <input type="text" class="form-control" placeholder="اكتب هنا">
-                          </div>
-                        </div>
+                          <th>
+                           محتوي الخبر 
+                          </th>
 
-                        <div class="col-lg-4 col-12 mx-auto mt-4">
-                          <div class="d-flex align-items-center align-content-center justify-content-center">
-                            <a href="#" class="btn btn-custom d-flex align-items-center justify-content-center align-content-center chat-send w-md waves-effect waves-light">
-                              <i class="bx bx-plus-medical"></i>
+                          <th>
+                            الخيارات
+                          </th>
+                        </tr>
+                      </thead>
 
-                              <span class="d-sm-inline-block mx-2">
-                                حفظ 
-                              </span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
+                      <tbody>
+                        <tr>
+                          <td>
+                            1
+                          </td>
+
+                          <td>
+                            <img src="assets/images/users/avatar-1.jpg" class="table-img" alt="">
+                          </td>
+
+                          <td>
+                            عنوان الخبر 
+                          </td>
+
+                          <td>
+                            وصف تفصيلي للخبر 
+                          </td>
+
+                          <td>
+                            <div class="d-flex align-items-center justify-content-center mb-2">
+                              <a href="edit-Blog.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light mx-3">
+                                <i class="uil-edit"></i>
+                              </a>
+
+                              <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
+                                <i class="uil-trash-alt"></i>
+                              </button>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>
@@ -577,16 +610,26 @@
     </div>
 
     <script src="assets/libs/jquery/jquery.min.js"></script>
+
     <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
     <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+
     <script src="assets/libs/simplebar/simplebar.min.js"></script>
+
     <script src="assets/libs/node-waves/waves.min.js"></script>
+
     <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+
     <script src="assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
 
-    <!-- Plugins js -->
-    <script src="assets/libs/dropzone/min/dropzone.min.js"></script>
+    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
 
+    <script src="assets/js/pages/apexcharts.init.js"></script>
+
+    <script src="assets/js/pages/dashboard.init.js"></script>
+    <script src="assets/libs/jquery-knob/jquery.knob.min.js"></script> 
+    <script src="assets/js/pages/jquery-knob.init.js"></script> 
     <script src="assets/js/app.js"></script>
   </body>
 </html>
